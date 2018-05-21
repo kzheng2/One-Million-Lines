@@ -1,0 +1,84 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
+ul.navbar-nav {
+	font-size: 13px;
+}
+
+ul.navbar-nav, .jumbotron h1 {
+	font-family: 'Arvo', serif;
+}
+
+footer {
+	background-color: #e74c4c;
+	padding-top: 150px;
+	padding-bottom: 30px;
+}
+
+#get-involved {
+	background-color: #f5f5f5; 
+}
+
+.jumbotron {
+	text-align: center;
+	color: white;
+	background: url('../hero_image.jpg');
+}
+
+.jumbotron h1 {
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+.jumbotron p {
+	padding: 10px 60px;
+}
+
+.homepage {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+.homepage h2, .homepage h3 {
+	text-transform: uppercase;
+	font-family: "Arvo", serif;
+	color: #e74c3c;
+}
+
+.homepage h2 {
+	font-size: 30px;
+}
+
+.homepage h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 26px;
+}
+
+.homapage p {
+	font-weight: 300px;
+	font-size: 21px;
+}
+
+.homepage hr {
+	border-top: 1px solid #e74c4c;
+	width: 160px;
+	margin-top: 15px;
+}
+
+.homepage a {
+	color: #e74c4c;
+}
+
+.homepage a:hover {
+	color: #e74c4c;
+	text-decoration: none;
+	opacity: 0.8; 
+}
+
+.homepage a.btn {
+	background-color: white;
+}
